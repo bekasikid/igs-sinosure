@@ -1,0 +1,697 @@
+<?xml version="1.0" encoding="UTF-8" ?><Report>
+    <About>
+        <ReportNo>52227</ReportNo>
+        <ReportType></ReportType>
+        <ChannelNo></ChannelNo>
+        <DefaultCurrency>INR</DefaultCurrency>
+        <CorpID>SinoSure</CorpID>
+    </About>
+    <Subject>
+        <BasicInfo>
+            <EngName>Tech Mahindra Limited</EngName>
+            <ChnName></ChnName>
+            <TradeName></TradeName>
+            <City>Mumbai</City>
+            <Province></Province>
+            <Country>IND</Country>
+            <StreetAddress>Gateway Building, Apollo Bunder</StreetAddress>
+            <ZipCode>400 001</ZipCode>
+            <OtherAddress>Sharda Centre, Off Karve Road, Pune - 411 004, Maharashtra, India</OtherAddress>
+            <AddressRegistered>Gateway Building, Apollo Bunder, Mumbai - 400 001, Maharashtra, India</AddressRegistered>
+            <AddressCHN></AddressCHN>
+            <RegisterNo>L64200MH1986PLC041370</RegisterNo>
+            <TelephoneNo>91 22 2493 1441</TelephoneNo>
+            <FaxNo>91 22 2497 5193</FaxNo>
+            <Website>www.techmahindra.com</Website>
+            <Email>tmlipo@techmahindra.com</Email>
+            <TaxID></TaxID>
+            <DunsNo></DunsNo>
+        </BasicInfo>
+        <OverView>
+            <LegalForm>1202</LegalForm>
+            <DateRegistered>1986-10-24</DateRegistered>
+            <DateFounded></DateFounded>
+            <InitialCapital></InitialCapital>
+            <InitialMoneyId></InitialMoneyId>
+            <InitialCapitalUSD></InitialCapitalUSD>
+            <NationalityCEO></NationalityCEO>
+            <EducationCEO></EducationCEO>
+            <YearInBizCEO></YearInBizCEO>
+            <RegisterCapital>6191000000</RegisterCapital>
+            <RegisterMoneyId>INR</RegisterMoneyId>
+            <RegisterCapitalUSD>104366150.23</RegisterCapitalUSD>
+            <EmployeeNum>40763</EmployeeNum>
+            <BranchNumber></BranchNumber>
+            <BranchEmployeeNum></BranchEmployeeNum>
+            <PaidUpCapital>1287704640</PaidUpCapital>
+            <PaidUpMoneyId>INR</PaidUpMoneyId>
+            <PaidUpCapitalUSD>21707765.45</PaidUpCapitalUSD>
+            <OperationStatus>1</OperationStatus>
+            <ParentId></ParentId>
+            <Parent>Mahindra &amp; Mahindra Ltd , 
+                British Telecommunications Plc</Parent>
+            <UParentId></UParentId>
+            <UltimateParent></UltimateParent>
+            <ListedFlag>1</ListedFlag>
+            <StockExchange>Bombay Stock Exchange, National Stock Exchange, MCX Stock Exchange Limited</StockExchange>
+            <CEO></CEO>
+            <CFO></CFO>
+            <LegalChanges></LegalChanges>
+            <BackGround>The subject company is a leading provider of IT, networking technology solutions and Business Support Services to the global telecommunications industry. It is part of the US $11.1 billion Mahindra Group, in partnership with British Telecommunications plc (BT), one of the world's leading communications service providers, focused primarily on the telecommunications industry. In 2009 it expanded its IT portfolio by acquiring the leading global business and information technology services company Satyam Computer Services Limited ( Mahindra Satyam).</BackGround>
+            <FormerRegisterNo></FormerRegisterNo>
+            <LastCapitalDate></LastCapitalDate>
+            <ListedSharePriceDate>2014-04-11</ListedSharePriceDate>
+            <ListedSharePrice>1739.45</ListedSharePrice>
+            <ListedSharePriceMoneyID>INR</ListedSharePriceMoneyID>
+            <ShareRemark></ShareRemark>
+            <ParentRemark></ParentRemark>
+            <UParentRemark></UParentRemark>
+            <Subsidiaries>
+                <Subsidiary>
+                    <Name>Tech Mahindra GmbH </Name>
+                    <Code></Code>
+                    <Contact></Contact>
+                    <Address></Address>
+                </Subsidiary>
+                <Subsidiary>
+                    <Name>
+                        Tech Talenta Inc USA </Name>
+                    <Code></Code>
+                    <Contact></Contact>
+                    <Address></Address>
+                </Subsidiary>
+                <Subsidiary>
+                    <Name>
+                        CanvasM (Americas) Inc </Name>
+                    <Code></Code>
+                    <Contact></Contact>
+                    <Address></Address>
+                </Subsidiary>
+                <Subsidiary>
+                    <Name>
+                        Tech Mahindra Foundation </Name>
+                    <Code></Code>
+                    <Contact></Contact>
+                    <Address></Address>
+                </Subsidiary>
+                <Subsidiary>
+                    <Name>
+                        CanvasM Technologies Ltd </Name>
+                    <Code></Code>
+                    <Contact></Contact>
+                    <Address></Address>
+                </Subsidiary>
+                <Subsidiary>
+                    <Name>
+                        PT Tech Mahindra Indonesia </Name>
+                    <Code></Code>
+                    <Contact></Contact>
+                    <Address></Address>
+                </Subsidiary>
+                <Subsidiary>
+                    <Name>
+                        Tech Mahindra (Nigeria) Ltd </Name>
+                    <Code></Code>
+                    <Contact></Contact>
+                    <Address></Address>
+                </Subsidiary>
+                <Subsidiary>
+                    <Name>
+                        Tech Mahindra (Thailand) Ltd </Name>
+                    <Code></Code>
+                    <Contact></Contact>
+                    <Address></Address>
+                </Subsidiary>
+                <Subsidiary>
+                    <Name>
+                        Venturbay Consultants Pvt Ltd </Name>
+                    <Code></Code>
+                    <Contact></Contact>
+                    <Address></Address>
+                </Subsidiary>
+                <Subsidiary>
+                    <Name>
+                        Tech Mahindra (Bahrain) Ltd SPC </Name>
+                    <Code></Code>
+                    <Contact></Contact>
+                    <Address></Address>
+                </Subsidiary>
+                <Subsidiary>
+                    <Name>
+                        Tech Mahindra (Americas) Inc USA </Name>
+                    <Code></Code>
+                    <Contact></Contact>
+                    <Address></Address>
+                </Subsidiary>
+                <Subsidiary>
+                    <Name>
+                        Tech Mahindra (Malaysia) SDN BHD </Name>
+                    <Code></Code>
+                    <Contact></Contact>
+                    <Address></Address>
+                </Subsidiary>
+                <Subsidiary>
+                    <Name>
+                        Tech Mahindra (Singapore) Pte Ltd </Name>
+                    <Code></Code>
+                    <Contact></Contact>
+                    <Address></Address>
+                </Subsidiary>
+                <Subsidiary>
+                    <Name>
+                        Tech Mahindra (Beijing) IT Services Ltd </Name>
+                    <Code></Code>
+                    <Contact></Contact>
+                    <Address></Address>
+                </Subsidiary>
+                <Subsidiary>
+                    <Name>
+                        Mahindra Logisoft Business Solutions Ltd </Name>
+                    <Code></Code>
+                    <Contact></Contact>
+                    <Address></Address>
+                </Subsidiary>
+                <Subsidiary>
+                    <Name>
+                        Tech Mahindra Brasil Servicecos De Informatica Ltd</Name>
+                    <Code></Code>
+                    <Contact></Contact>
+                    <Address></Address>
+                </Subsidiary>
+            </Subsidiaries>
+            <Relateds>
+                <Related>
+                    <Name>Mahindra BT Investment Company (Mauritius) Ltd</Name>
+                    <Code></Code>
+                </Related>
+                <Related>
+                    <Name>Satyam BPO Ltd </Name>
+                    <Code></Code>
+                </Related>
+                <Related>
+                    <Name>
+                        Satyam Computer Services Ltd </Name>
+                    <Code></Code>
+                </Related>
+                <Related>
+                    <Name>
+                        Satyam Computer Services (Shanghai) Co Ltd</Name>
+                    <Code></Code>
+                </Related>
+            </Relateds>
+            <Affiliates>
+            </Affiliates>
+            <Managers>
+                <Manager>
+                    <Name>Anand Gopal Mahindra</Name>
+                    <Title>Additional Director</Title>
+                    <Nationality></Nationality>
+                    <WorkExperience></WorkExperience>
+                    <Age>59</Age>
+                </Manager>
+                <Manager>
+                    <Name>Rajyalakshmi Rao Meka</Name>
+                    <Title>Additional Director</Title>
+                    <Nationality></Nationality>
+                    <WorkExperience></WorkExperience>
+                    <Age>65</Age>
+                </Manager>
+                <Manager>
+                    <Name>Bharat Narotam Doshi</Name>
+                    <Title>Additional Director</Title>
+                    <Nationality></Nationality>
+                    <WorkExperience></WorkExperience>
+                    <Age>65</Age>
+                </Manager>
+                <Manager>
+                    <Name>Chander Prakash Gurnani</Name>
+                    <Title>Managing Director</Title>
+                    <Nationality></Nationality>
+                    <WorkExperience></WorkExperience>
+                    <Age>56</Age>
+                </Manager>
+                <Manager>
+                    <Name>Vineet Nayyar</Name>
+                    <Title>Whole Time Director</Title>
+                    <Nationality></Nationality>
+                    <WorkExperience></WorkExperience>
+                    <Age>76</Age>
+                </Manager>
+                <Manager>
+                    <Name>Ulhas Narayan Yargop</Name>
+                    <Title>Nominee Director</Title>
+                    <Nationality></Nationality>
+                    <WorkExperience></WorkExperience>
+                    <Age>60</Age>
+                </Manager>
+                <Manager>
+                    <Name>Ravindra Krishna Kulkarni</Name>
+                    <Title>Director</Title>
+                    <Nationality></Nationality>
+                    <WorkExperience></WorkExperience>
+                    <Age>69</Age>
+                </Manager>
+                <Manager>
+                    <Name>Anupam Pradip Puri</Name>
+                    <Title>Director</Title>
+                    <Nationality></Nationality>
+                    <WorkExperience></WorkExperience>
+                    <Age></Age>
+                </Manager>
+                <Manager>
+                    <Name>Thothala Narayanasamy Manoharan</Name>
+                    <Title>Additional Director</Title>
+                    <Nationality></Nationality>
+                    <WorkExperience></WorkExperience>
+                    <Age>58</Age>
+                </Manager>
+                <Manager>
+                    <Name>Meleveetil Damodaran</Name>
+                    <Title>Director</Title>
+                    <Nationality></Nationality>
+                    <WorkExperience></WorkExperience>
+                    <Age>67</Age>
+                </Manager>
+                <Manager>
+                    <Name>G Jayaraman</Name>
+                    <Title>Company Secretary</Title>
+                    <Nationality></Nationality>
+                    <WorkExperience></WorkExperience>
+                    <Age></Age>
+                </Manager>
+            </Managers>
+            <BranchDetailInfos>
+                <BranchDetailInfo>
+                    <Name>Corporate Office</Name>
+                    <Address>Sharda Centre, Off Karve Road, Pune - 411 004, Maharashtra, India</Address>
+                    <Contact>91  20   6601 8100</Contact>
+                    <Holdings></Holdings>
+                    <Remark></Remark>
+                </BranchDetailInfo>
+                <BranchDetailInfo>
+                    <Name>Noida Office</Name>
+                    <Address>A-7, Sector 64, NOIDA - 201 301, Uttar Pradesh, India</Address>
+                    <Contact>91  120  4096000</Contact>
+                    <Holdings></Holdings>
+                    <Remark></Remark>
+                </BranchDetailInfo>
+                <BranchDetailInfo>
+                    <Name>Other Address</Name>
+                    <Address>Delta Building (Unit No.Iii) 5Th Floor, Gigaspace, Pune - 411 016, Maharashtra, India</Address>
+                    <Contact></Contact>
+                    <Holdings></Holdings>
+                    <Remark></Remark>
+                </BranchDetailInfo>
+                <BranchDetailInfo>
+                    <Name>Bengaluru  Office</Name>
+                    <Address>Plot No. 45 - 47, Kiadb Industrial Area Phase - Ii, Electronic City, Bengaluru - `560100, Karnataka, India</Address>
+                    <Contact>91  80    67807777 </Contact>
+                    <Holdings></Holdings>
+                    <Remark></Remark>
+                </BranchDetailInfo>
+            </BranchDetailInfos>
+            <ShareHolders>
+                <ShareHolder>
+                    <Name>Mahindra &amp; Mahindra Limited</Name>
+                    <Ratio>25.99</Ratio>
+                    <SharesHold>60676252</SharesHold>
+                    <ValueHold></ValueHold>
+                    <ValueMoneyID></ValueMoneyID>
+                    <ValueUSD></ValueUSD>
+                </ShareHolder>
+                <ShareHolder>
+                    <Name>TML Benefit Trust(Through Mr.Ulhasnarayan Yargop,Trustee)</Name>
+                    <Ratio>10.28</Ratio>
+                    <SharesHold>24000000</SharesHold>
+                    <ValueHold></ValueHold>
+                    <ValueMoneyID></ValueMoneyID>
+                    <ValueUSD></ValueUSD>
+                </ShareHolder>
+                <ShareHolder>
+                    <Name>LIC of India Money Plus Growth Fund</Name>
+                    <Ratio>2.30</Ratio>
+                    <SharesHold>5370475</SharesHold>
+                    <ValueHold></ValueHold>
+                    <ValueMoneyID></ValueMoneyID>
+                    <ValueUSD></ValueUSD>
+                </ShareHolder>
+                <ShareHolder>
+                    <Name>City of Newyork Group Trust</Name>
+                    <Ratio>1.47</Ratio>
+                    <SharesHold>3436714</SharesHold>
+                    <ValueHold></ValueHold>
+                    <ValueMoneyID></ValueMoneyID>
+                    <ValueUSD></ValueUSD>
+                </ShareHolder>
+                <ShareHolder>
+                    <Name>Hsbc Global Investment Funds A/C SBC Gif Mauritius Limited</Name>
+                    <Ratio>1.40</Ratio>
+                    <SharesHold>3267181</SharesHold>
+                    <ValueHold></ValueHold>
+                    <ValueMoneyID></ValueMoneyID>
+                    <ValueUSD></ValueUSD>
+                </ShareHolder>
+                <ShareHolder>
+                    <Name>National Westminster Bank Plc as Depository of First State Global Emerging Markets Leaders Fund a Su</Name>
+                    <Ratio>1.15</Ratio>
+                    <SharesHold>2677163</SharesHold>
+                    <ValueHold></ValueHold>
+                    <ValueMoneyID></ValueMoneyID>
+                    <ValueUSD></ValueUSD>
+                </ShareHolder>
+                <ShareHolder>
+                    <Name>Government of Singapore</Name>
+                    <Ratio>1.09</Ratio>
+                    <SharesHold>2533628</SharesHold>
+                    <ValueHold></ValueHold>
+                    <ValueMoneyID></ValueMoneyID>
+                    <ValueUSD></ValueUSD>
+                </ShareHolder>
+                <ShareHolder>
+                    <Name>Skagen Kon-Tiki Verdipapirfond</Name>
+                    <Ratio>1.08</Ratio>
+                    <SharesHold>2529440</SharesHold>
+                    <ValueHold></ValueHold>
+                    <ValueMoneyID></ValueMoneyID>
+                    <ValueUSD></ValueUSD>
+                </ShareHolder>
+                <ShareHolder>
+                    <Name>ABU Dhabi Investment Authority - Gulab</Name>
+                    <Ratio>1.07</Ratio>
+                    <SharesHold>2498865</SharesHold>
+                    <ValueHold></ValueHold>
+                    <ValueMoneyID></ValueMoneyID>
+                    <ValueUSD></ValueUSD>
+                </ShareHolder>
+                <ShareHolder>
+                    <Name>Government Pension Fund Global</Name>
+                    <Ratio>1.04</Ratio>
+                    <SharesHold>2436731</SharesHold>
+                    <ValueHold></ValueHold>
+                    <ValueMoneyID></ValueMoneyID>
+                    <ValueUSD></ValueUSD>
+                </ShareHolder>
+            </ShareHolders>
+        </OverView>
+        <Operation>
+            <BusinessType></BusinessType>
+            <Products>Solution Integration,
+                Application Development &amp; Management,
+                Consulting,
+                Managed Services,
+                Product Engineering</Products>
+            <Brands></Brands>
+            <BrandType></BrandType>
+            <SICLocal></SICLocal>
+            <CodeStandard></CodeStandard>
+            <TrendOfIndustry></TrendOfIndustry>
+            <ProductionCapacity></ProductionCapacity>
+            <PremiseSize></PremiseSize>
+            <ChinaSIC></ChinaSIC>
+            <PremiseValue></PremiseValue>
+            <Location></Location>
+            <SizeUnit></SizeUnit>
+            <HoldingsType></HoldingsType>
+            <PremiseValueUSD></PremiseValueUSD>
+            <PremiseMoneyID></PremiseMoneyID>
+            <MainSalesTerritory></MainSalesTerritory>
+            <TotalSales>59067000.00</TotalSales>
+            <TotalMoneyID>INR</TotalMoneyID>
+            <TotalSalesUSD>995735</TotalSalesUSD>
+            <ExportMode></ExportMode>
+            <DomesticSaleMode></DomesticSaleMode>
+            <TotalExport>55509000.00</TotalExport>
+            <ExportMoneyID>INR</ExportMoneyID>
+            <TotalExportUSD>935755.23</TotalExportUSD>
+            <PurchasingArea></PurchasingArea>
+            <TotalPurchase></TotalPurchase>
+            <TotalPurchaseMoneyId></TotalPurchaseMoneyId>
+            <TotalPurchaseUSD></TotalPurchaseUSD>
+            <ImportAmount>25007000.00</ImportAmount>
+            <ImportMoneyID>INR</ImportMoneyID>
+            <ImportUSD>421561.03</ImportUSD>
+            <DomesticPurchaseRatio></DomesticPurchaseRatio>
+            <ForeignPurchaseRatio></ForeignPurchaseRatio>
+            <NAICS></NAICS>
+            <ImportMode></ImportMode>
+            <DomesticPurchaseMode></DomesticPurchaseMode>
+        </Operation>
+        <CreditRecord>
+            <RiskScore>A</RiskScore>
+            <RiskAnalysis>Moderate Risk</RiskAnalysis>
+            <CreditRecommendation>807810000</CreditRecommendation>
+            <BankCreditMax></BankCreditMax>
+            <BankCreditMoneyID></BankCreditMoneyID>
+            <BankCreditMaxUSD></BankCreditMaxUSD>
+            <BankComment></BankComment>
+            <PaymentScore></PaymentScore>
+            <NoOfPaymentRecords></NoOfPaymentRecords>
+            <TotalAmount></TotalAmount>
+            <TotalAmountMoneyID></TotalAmountMoneyID>
+            <TotalAmountUSD></TotalAmountUSD>
+            <HighestPayment></HighestPayment>
+            <HighestMoneyID></HighestMoneyID>
+            <HighestUSD></HighestUSD>
+            <HighestCredt></HighestCredt>
+            <HighestCreditMoneyID></HighestCreditMoneyID>
+            <HighestCreditUSD></HighestCreditUSD>
+            <AverageDBT></AverageDBT>
+            <BadPaymentFlag></BadPaymentFlag>
+            <TradeHistory></TradeHistory>
+            <MonthlyAverage></MonthlyAverage>
+            <MonthlyAverageMoneyID></MonthlyAverageMoneyID>
+            <MonthlyAverageUSD></MonthlyAverageUSD>
+            <MortgageAmount>9500053267</MortgageAmount>
+            <MortgageMoneyID>INR</MortgageMoneyID>
+            <MortgageAmountUSD>160149248</MortgageAmountUSD>
+            <GuarantorAmount></GuarantorAmount>
+            <GuarantorAmountMoneyID></GuarantorAmountMoneyID>
+            <GuarantorAmountUSD></GuarantorAmountUSD>
+            <GuaranteeAmount></GuaranteeAmount>
+            <GuaranteeAmountMoneyID></GuaranteeAmountMoneyID>
+            <GuaranteeAmountUSD></GuaranteeAmountUSD>
+            <EDFValue></EDFValue>
+            <EDFTrend></EDFTrend>
+            <EDFDate></EDFDate>
+            <Justice></Justice>
+            <SoverguaranteeFlag></SoverguaranteeFlag>
+            <BankInfos>
+                <BankInfo>
+                    <Name>Bank of Baroda</Name>
+                    <Code></Code>
+                </BankInfo>
+                <BankInfo>
+                    <Name>BNP Paribas</Name>
+                    <Code></Code>
+                </BankInfo>
+                <BankInfo>
+                    <Name>Hongkong &amp; Shanghai Banking Corporation Ltd.</Name>
+                    <Code></Code>
+                </BankInfo>
+                <BankInfo>
+                    <Name>Kotak Mahindra Bank Ltd.</Name>
+                    <Code></Code>
+                </BankInfo>
+                <BankInfo>
+                    <Name>Industrial Development Bank of India Limited</Name>
+                    <Code></Code>
+                </BankInfo>
+                <BankInfo>
+                    <Name>ICICI Bank Limited</Name>
+                    <Code></Code>
+                </BankInfo>
+                <BankInfo>
+                    <Name>HDFC Bank Ltd.</Name>
+                    <Code></Code>
+                </BankInfo>
+                <BankInfo>
+                    <Name>Citibank N.A.</Name>
+                    <Code></Code>
+                </BankInfo>
+            </BankInfos>
+            <MortgageDetails>
+                <MortgageDetail>
+                    <MortgageDate>2013-05-07</MortgageDate>
+                    <ReleaseDate></ReleaseDate>
+                    <Mortgage></Mortgage>
+                    <MortgageType></MortgageType>
+                    <MortgageObjectType></MortgageObjectType>
+                </MortgageDetail>
+                <MortgageDetail>
+                    <MortgageDate>2011-02-25</MortgageDate>
+                    <ReleaseDate></ReleaseDate>
+                    <Mortgage></Mortgage>
+                    <MortgageType></MortgageType>
+                    <MortgageObjectType></MortgageObjectType>
+                </MortgageDetail>
+                <MortgageDetail>
+                    <MortgageDate>2013-11-19</MortgageDate>
+                    <ReleaseDate></ReleaseDate>
+                    <Mortgage></Mortgage>
+                    <MortgageType></MortgageType>
+                    <MortgageObjectType></MortgageObjectType>
+                </MortgageDetail>
+            </MortgageDetails>
+        </CreditRecord>
+        <Public>
+            <BulletinFlg>0</BulletinFlg>
+            <NewsFlag>1</NewsFlag>
+            <LitigationFlag>1</LitigationFlag>
+            <BankruptcyFlg></BankruptcyFlg>
+            <MortgateFlag>1</MortgateFlag>
+            <OtherPublicRecordFlag>0</OtherPublicRecordFlag>
+            <LienFlag>0</LienFlag>
+            <Note></Note>
+        </Public>
+        <Financials>
+            <Financial>
+                <Auditor>M/s Deloitte Haskins &amp; Sells</Auditor>
+                <Currency>INR</Currency>
+                <MoneyUnit>1000</MoneyUnit>
+                <ClosingDate>2013-03-31</ClosingDate>
+                <FinancialReportType>1</FinancialReportType>
+                <AuditFlag>1</AuditFlag>
+                <EstimatedFlag>0</EstimatedFlag>
+                <ConsolidatedFlag>0</ConsolidatedFlag>
+                <BalanceFlag>1</BalanceFlag>
+                <CurrentAssets>21585000.00</CurrentAssets>
+                <Receivables>13725000.00</Receivables>
+                <Inventory>0.00</Inventory>
+                <IntangibleAssets>68000.00</IntangibleAssets>
+                <TotalAssets>72585000.00</TotalAssets>
+                <CurrentDebts>23795000.00</CurrentDebts>
+                <Payables>5644000.00</Payables>
+                <Totalliability>30760000.00</Totalliability>
+                <RetainedEaring>40544000.00</RetainedEaring>
+                <TotalEquity>41825000.00</TotalEquity>
+                <WorkingCapital>-2210000.00</WorkingCapital>
+                <MarketValue></MarketValue>
+                <SalesRevenue>59067000.00</SalesRevenue>
+                <SalesCost>50895000.00</SalesCost>
+                <FinancialExpenses>1090000.00</FinancialExpenses>
+                <OperatingProfit>8172000.00</OperatingProfit>
+                <EBIT></EBIT>
+                <NetProfit>6525000.00</NetProfit>
+                <CFOperation></CFOperation>
+                <CFFinancing></CFFinancing>
+                <CFIvestment></CFIvestment>
+                <CurrentRatio>0.91</CurrentRatio>
+                <QuickRatio>0.91</QuickRatio>
+                <DebtRatio>0.4</DebtRatio>
+                <DebutToEquity>0.13</DebutToEquity>
+                <InterestTimes>8.5</InterestTimes>
+                <ReceivableTurnover>4.37</ReceivableTurnover>
+                <CollectionPeriod>83</CollectionPeriod>
+                <AccountPayableTurnover></AccountPayableTurnover>
+                <PaymentPeriod></PaymentPeriod>
+                <InventoryTurnover></InventoryTurnover>
+                <InventoryTurnoverPeriod></InventoryTurnoverPeriod>
+                <TotalAssetTurnover>8.02</TotalAssetTurnover>
+                <EBITDAMargin></EBITDAMargin>
+                <NetProfitMargin></NetProfitMargin>
+                <ReturnOnEquity></ReturnOnEquity>
+                <ReturnOnAssets>8.99</ReturnOnAssets>
+                <Source>2</Source>
+            </Financial>
+            <Financial>
+                <Auditor>M/s Deloitte Haskins &amp; Sells</Auditor>
+                <Currency>INR</Currency>
+                <MoneyUnit>1000</MoneyUnit>
+                <ClosingDate>2012-03-31</ClosingDate>
+                <FinancialReportType>1</FinancialReportType>
+                <AuditFlag>1</AuditFlag>
+                <EstimatedFlag>0</EstimatedFlag>
+                <ConsolidatedFlag>0</ConsolidatedFlag>
+                <BalanceFlag>1</BalanceFlag>
+                <CurrentAssets>19970000.00</CurrentAssets>
+                <Receivables>12431000.00</Receivables>
+                <Inventory>0.00</Inventory>
+                <IntangibleAssets>63000.00</IntangibleAssets>
+                <TotalAssets>63616000.00</TotalAssets>
+                <CurrentDebts>17169000.00</CurrentDebts>
+                <Payables>4684000.00</Payables>
+                <Totalliability>29184000.00</Totalliability>
+                <RetainedEaring>33157000.00</RetainedEaring>
+                <TotalEquity>34432000.00</TotalEquity>
+                <WorkingCapital>2801000.00</WorkingCapital>
+                <MarketValue></MarketValue>
+                <SalesRevenue>53107000.00</SalesRevenue>
+                <SalesCost>46638000.00</SalesCost>
+                <FinancialExpenses>1025000.00</FinancialExpenses>
+                <OperatingProfit>5790000.00</OperatingProfit>
+                <EBIT></EBIT>
+                <NetProfit>4606000.00</NetProfit>
+                <CFOperation></CFOperation>
+                <CFFinancing></CFFinancing>
+                <CFIvestment></CFIvestment>
+                <CurrentRatio>1.16</CurrentRatio>
+                <QuickRatio>1.16</QuickRatio>
+                <DebtRatio>0.43</DebtRatio>
+                <DebutToEquity>0.3</DebutToEquity>
+                <InterestTimes>6.65</InterestTimes>
+                <ReceivableTurnover>4.22</ReceivableTurnover>
+                <CollectionPeriod>87</CollectionPeriod>
+                <AccountPayableTurnover></AccountPayableTurnover>
+                <PaymentPeriod></PaymentPeriod>
+                <InventoryTurnover></InventoryTurnover>
+                <InventoryTurnoverPeriod></InventoryTurnoverPeriod>
+                <TotalAssetTurnover>6.43</TotalAssetTurnover>
+                <EBITDAMargin></EBITDAMargin>
+                <NetProfitMargin></NetProfitMargin>
+                <ReturnOnEquity></ReturnOnEquity>
+                <ReturnOnAssets>7.24</ReturnOnAssets>
+                <Source>2</Source>
+            </Financial>
+            <Financial>
+                <Auditor>M/s Deloitte Haskins &amp; Sells</Auditor>
+                <Currency>INR</Currency>
+                <MoneyUnit>1000</MoneyUnit>
+                <ClosingDate>2011-03-31</ClosingDate>
+                <FinancialReportType>1</FinancialReportType>
+                <AuditFlag>1</AuditFlag>
+                <EstimatedFlag>0</EstimatedFlag>
+                <ConsolidatedFlag>0</ConsolidatedFlag>
+                <BalanceFlag>1</BalanceFlag>
+                <CurrentAssets>18412000.00</CurrentAssets>
+                <Receivables>9643000.00</Receivables>
+                <Inventory>6000.00</Inventory>
+                <IntangibleAssets>30000.00</IntangibleAssets>
+                <TotalAssets>60804000.00</TotalAssets>
+                <CurrentDebts>15295000.00</CurrentDebts>
+                <Payables>3034000.00</Payables>
+                <Totalliability>26964000.00</Totalliability>
+                <RetainedEaring>32580000.00</RetainedEaring>
+                <TotalEquity>33840000.00</TotalEquity>
+                <WorkingCapital>3117000.00</WorkingCapital>
+                <MarketValue></MarketValue>
+                <SalesRevenue>50921000.00</SalesRevenue>
+                <SalesCost>42861000.00</SalesCost>
+                <FinancialExpenses>1113000.00</FinancialExpenses>
+                <OperatingProfit>8060000.00</OperatingProfit>
+                <EBIT></EBIT>
+                <NetProfit>6967000.00</NetProfit>
+                <CFOperation></CFOperation>
+                <CFFinancing></CFFinancing>
+                <CFIvestment></CFIvestment>
+                <CurrentRatio>1.2</CurrentRatio>
+                <QuickRatio>1.2</QuickRatio>
+                <DebtRatio>0.42</DebtRatio>
+                <DebutToEquity>0.31</DebutToEquity>
+                <InterestTimes>8.24</InterestTimes>
+                <ReceivableTurnover>5.15</ReceivableTurnover>
+                <CollectionPeriod>71</CollectionPeriod>
+                <AccountPayableTurnover></AccountPayableTurnover>
+                <PaymentPeriod></PaymentPeriod>
+                <InventoryTurnover>8275.83</InventoryTurnover>
+                <InventoryTurnoverPeriod></InventoryTurnoverPeriod>
+                <TotalAssetTurnover>7.51</TotalAssetTurnover>
+                <EBITDAMargin></EBITDAMargin>
+                <NetProfitMargin></NetProfitMargin>
+                <ReturnOnEquity></ReturnOnEquity>
+                <ReturnOnAssets>11.46</ReturnOnAssets>
+                <Source></Source>
+            </Financial>
+            <Note />
+        </Financials>
+    </Subject>
+</Report>
