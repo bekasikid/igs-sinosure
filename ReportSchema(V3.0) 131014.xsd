@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="Report">
+		<xs:annotation>
+			<xs:documentation>资信报告</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="About">
+					<xs:annotation>
+						<xs:documentation>报告说明</xs:documentation>
+					</xs:annotation>
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ReportNo"/>
+							<xs:element name="ReportType"/>
+							<xs:element name="ChannelNo"/>
+							<xs:element name="DefaultCurrency"/>
+							<xs:element name="CorpID"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Subject">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="BasicInfo">
+								<xs:annotation>
+									<xs:documentation>企业基本信息</xs:documentation>
+								</xs:annotation>
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="EngName"/>
+										<xs:element name="ChnName"/>
+										<xs:element name="TradeName"/>
+										<xs:element name="City"/>
+										<xs:element name="Province"/>
+										<xs:element name="Country"/>
+										<xs:element name="StreetAddress"/>
+										<xs:element name="ZipCode"/>
+										<xs:element name="OtherAddress"/>
+										<xs:element name="AddressRegistered"/>
+										<xs:element name="AddressCHN"/>
+										<xs:element name="RegisterNo"/>
+										<xs:element name="TelephoneNo"/>
+										<xs:element name="FaxNo"/>
+										<xs:element name="WebSite"/>
+										<xs:element name="Email"/>
+										<xs:element name="TaxID"/>
+										<xs:element name="DunsNo"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="OverView">
+								<xs:annotation>
+									<xs:documentation>企业总体概况</xs:documentation>
+								</xs:annotation>
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="LegalForm"/>
+										<xs:element name="DateRegistered" type="xs:date"/>
+										<xs:element name="DateFounded" type="xs:date"/>
+										<xs:element name="InitialCapital" type="xs:double"/>
+										<xs:element name="InitialMoneyId"/>
+										<xs:element name="InitialCapitalUSD" type="xs:double"/>
+										<xs:element name="NationalityCEO"/>
+										<xs:element name="EducationCEO"/>
+										<xs:element name="YearInBizCEO" type="xs:long"/>
+										<xs:element name="RegisterCapital" type="xs:double"/>
+										<xs:element name="RegisterMoneyId"/>
+										<xs:element name="RegisterCapitalUSD"/>
+										<xs:element name="EmployeeNum" type="xs:long"/>
+										<xs:element name="BranchNumber" type="xs:long"/>
+										<xs:element name="BranchEmployeeNum" type="xs:long"/>
+										<xs:element name="PaidUpCapital" type="xs:double"/>
+										<xs:element name="PaidUpMoneyId"/>
+										<xs:element name="PaidUpCapitalUSD" type="xs:double"/>
+										<xs:element name="OperationStatus"/>
+										<xs:element name="ParentId"/>
+										<xs:element name="Parent"/>
+										<xs:element name="UParentId"/>
+										<xs:element name="UltimateParent"/>
+										<xs:element name="ListedFlag"/>
+										<xs:element name="StockExchange"/>
+										<xs:element name="CEO"/>
+										<xs:element name="CFO"/>
+										<xs:element name="LegalChanges">
+											<xs:annotation>
+												<xs:documentation>注册变更</xs:documentation>
+											</xs:annotation>
+										</xs:element>
+										<xs:element name="BackGround" type="xs:string">
+											<xs:annotation>
+												<xs:documentation>历史沿革</xs:documentation>
+											</xs:annotation>
+										</xs:element>
+										<xs:element name="FormerRegisterNo" type="xs:string">
+											<xs:annotation>
+												<xs:documentation>曾用注册号</xs:documentation>
+											</xs:annotation>
+										</xs:element>
+										<xs:element name="LastCapitalDate" type="xs:date">
+											<xs:annotation>
+												<xs:documentation>最后一次增资时间</xs:documentation>
+											</xs:annotation>
+										</xs:element>
+										<xs:element name="ListedSharePriceDate" type="xs:date">
+											<xs:annotation>
+												<xs:documentation>上市公司股价时间</xs:documentation>
+											</xs:annotation>
+										</xs:element>
+										<xs:element name="ListedSharePrice" type="xs:double">
+											<xs:annotation>
+												<xs:documentation>上市公司股价</xs:documentation>
+											</xs:annotation>
+										</xs:element>
+										<xs:element name="ListedSharePriceMoneyID" type="xs:string">
+											<xs:annotation>
+												<xs:documentation>上市公司股价币种</xs:documentation>
+											</xs:annotation>
+										</xs:element>
+										<xs:element name="ShareRemark" type="xs:string">
+											<xs:annotation>
+												<xs:documentation>股东情况备注</xs:documentation>
+											</xs:annotation>
+										</xs:element>
+										<xs:element name="ParentRemark" type="xs:string">
+											<xs:annotation>
+												<xs:documentation>母公司备注</xs:documentation>
+											</xs:annotation>
+										</xs:element>
+										<xs:element name="UParentRemark" type="xs:string">
+											<xs:annotation>
+												<xs:documentation>最终母公司备注</xs:documentation>
+											</xs:annotation>
+										</xs:element>
+										<xs:element name="Subsidiaries">
+											<xs:annotation>
+												<xs:documentation>子公司</xs:documentation>
+											</xs:annotation>
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="Subsidiary" minOccurs="0" maxOccurs="unbounded">
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element name="Name" type="xs:string">
+																	<xs:annotation>
+																		<xs:documentation>子公司名称</xs:documentation>
+																	</xs:annotation>
+																</xs:element>
+																<xs:element name="Code" type="xs:string">
+																	<xs:annotation>
+																		<xs:documentation>子公司代码</xs:documentation>
+																	</xs:annotation>
+																</xs:element>
+																<xs:element name="Contact" type="xs:string">
+																	<xs:annotation>
+																		<xs:documentation>联系方式</xs:documentation>
+																	</xs:annotation>
+																</xs:element>
+																<xs:element name="Address" type="xs:string">
+																	<xs:annotation>
+																		<xs:documentation>地址</xs:documentation>
+																	</xs:annotation>
+																</xs:element>
+															</xs:sequence>
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="Relateds">
+											<xs:annotation>
+												<xs:documentation>关联公司</xs:documentation>
+											</xs:annotation>
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="Related" minOccurs="0" maxOccurs="unbounded">
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element name="Name" type="xs:string">
+																	<xs:annotation>
+																		<xs:documentation>关联公司名称</xs:documentation>
+																	</xs:annotation>
+																</xs:element>
+																<xs:element name="Code" type="xs:string">
+																	<xs:annotation>
+																		<xs:documentation>关联公司代码</xs:documentation>
+																	</xs:annotation>
+																</xs:element>
+															</xs:sequence>
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="Affiliates">
+											<xs:annotation>
+												<xs:documentation>参股公司</xs:documentation>
+											</xs:annotation>
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="Affiliate" minOccurs="0" maxOccurs="unbounded">
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element name="Name" type="xs:string">
+																	<xs:annotation>
+																		<xs:documentation>参股公司名称</xs:documentation>
+																	</xs:annotation>
+																</xs:element>
+																<xs:element name="Remark" type="xs:string">
+																	<xs:annotation>
+																		<xs:documentation>参股公司情况备注</xs:documentation>
+																	</xs:annotation>
+																</xs:element>
+															</xs:sequence>
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="Managers">
+											<xs:annotation>
+												<xs:documentation>管理层人员</xs:documentation>
+											</xs:annotation>
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="Manager" minOccurs="0" maxOccurs="unbounded">
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element name="Name" type="xs:string">
+																	<xs:annotation>
+																		<xs:documentation>管理层人员姓名</xs:documentation>
+																	</xs:annotation>
+																</xs:element>
+																<xs:element name="Title" type="xs:string">
+																	<xs:annotation>
+																		<xs:documentation>管理层人员职位</xs:documentation>
+																	</xs:annotation>
+																</xs:element>
+																<xs:element name="Nationality" type="xs:string">
+																	<xs:annotation>
+																		<xs:documentation>管理层人员国籍</xs:documentation>
+																	</xs:annotation>
+																</xs:element>
+																<xs:element name="WorkExperience" type="xs:string">
+																	<xs:annotation>
+																		<xs:documentation>管理层人员工作经验</xs:documentation>
+																	</xs:annotation>
+																</xs:element>
+																<xs:element name="Age" type="xs:long">
+																	<xs:annotation>
+																		<xs:documentation>管理层人员年龄</xs:documentation>
+																	</xs:annotation>
+																</xs:element>
+															</xs:sequence>
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="BranchDetailInfos">
+											<xs:annotation>
+												<xs:documentation>分支情况信息</xs:documentation>
+											</xs:annotation>
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="BranchDetailInfo" minOccurs="0" maxOccurs="unbounded">
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element name="Name" type="xs:string">
+																	<xs:annotation>
+																		<xs:documentation>分支机构名称</xs:documentation>
+																	</xs:annotation>
+																</xs:element>
+																<xs:element name="Address" type="xs:string">
+																	<xs:annotation>
+																		<xs:documentation>分支机构地址</xs:documentation>
+																	</xs:annotation>
+																</xs:element>
+																<xs:element name="Contact" type="xs:string">
+																	<xs:annotation>
+																		<xs:documentation>分支机构联系方式</xs:documentation>
+																	</xs:annotation>
+																</xs:element>
+																<xs:element name="Holdings" type="xs:string">
+																	<xs:annotation>
+																		<xs:documentation>经营地性质</xs:documentation>
+																	</xs:annotation>
+																</xs:element>
+																<xs:element name="Remark" type="xs:string">
+																	<xs:annotation>
+																		<xs:documentation>分支机构情况备注</xs:documentation>
+																	</xs:annotation>
+																</xs:element>
+															</xs:sequence>
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="ShareHolders">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="ShareHolder" minOccurs="0" maxOccurs="unbounded">
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element name="Name"/>
+																<xs:element name="Ratio" type="xs:double"/>
+																<xs:element name="SharesHold" type="xs:long"/>
+																<xs:element name="ValueHold" type="xs:double"/>
+																<xs:element name="ValueMoneyID"/>
+																<xs:element name="ValueUSD" type="xs:double"/>
+															</xs:sequence>
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="Operation">
+								<xs:annotation>
+									<xs:documentation>企业运营情况</xs:documentation>
+								</xs:annotation>
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="BusinessType"/>
+										<xs:element name="Products"/>
+										<xs:element name="Brands"/>
+										<xs:element name="BrandType"/>
+										<xs:element name="SICLocal"/>
+										<xs:element name="CodeStandard"/>
+										<xs:element name="TrendOfIndustry"/>
+										<xs:element name="ProductionCapacity"/>
+										<xs:element name="PremiseSize" type="xs:double"/>
+										<xs:element name="ChinaSIC"/>
+										<xs:element name="PremiseValue" type="xs:double"/>
+										<xs:element name="Location"/>
+										<xs:element name="SizeUnit"/>
+										<xs:element name="HoldingsType"/>
+										<xs:element name="PremiseValueUSD" type="xs:double"/>
+										<xs:element name="PremiseMoneyID"/>
+										<xs:element name="MainSalesTerritory"/>
+										<xs:element name="TotalSales" type="xs:double"/>
+										<xs:element name="TotalMoneyID"/>
+										<xs:element name="TotalSalesUSD" type="xs:double"/>
+										<xs:element name="ExportMode">
+											<xs:annotation>
+												<xs:documentation>出口结算方式</xs:documentation>
+											</xs:annotation>
+										</xs:element>
+										<xs:element name="DomesticSaleMode">
+											<xs:annotation>
+												<xs:documentation>内销结算方式</xs:documentation>
+											</xs:annotation>
+										</xs:element>
+										<xs:element name="TotalExport" type="xs:double"/>
+										<xs:element name="ExportMoneyID"/>
+										<xs:element name="TotalExportUSD" type="xs:double"/>
+										<xs:element name="PurchasingArea"/>
+										<xs:element name="TotalPurchase" type="xs:double"/>
+										<xs:element name="TotalPurchaseMoneyId"/>
+										<xs:element name="TotalPurchaseUSD" type="xs:double"/>
+										<xs:element name="ImportAmount" type="xs:double"/>
+										<xs:element name="ImportMoneyID"/>
+										<xs:element name="ImportUSD" type="xs:double"/>
+										<xs:element name="DomesticPurchaseRatio" type="xs:double"/>
+										<xs:element name="ForeignPurchaseRatio" type="xs:double"/>
+										<xs:element name="NASIC"/>
+										<xs:element name="ImportMode"/>
+										<xs:element name="DomesticPurchaseMode"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="CreditRecord">
+								<xs:annotation>
+									<xs:documentation>企业公共记录</xs:documentation>
+								</xs:annotation>
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="RiskScore"/>
+										<xs:element name="RiskAnalysis"/>
+										<xs:element name="CreditRecommendation" type="xs:double">
+											<xs:annotation>
+												<xs:documentation>报告推荐授信</xs:documentation>
+											</xs:annotation>
+										</xs:element>
+										<xs:element name="BankCreditMax" type="xs:double"/>
+										<xs:element name="BankCreditMoneyID"/>
+										<xs:element name="BankCreditMaxUSD" type="xs:double"/>
+										<xs:element name="BankComment"/>
+										<xs:element name="PaymentScore" type="xs:long"/>
+										<xs:element name="NoOfPaymentRecords" type="xs:long"/>
+										<xs:element name="TotalAmount" type="xs:double"/>
+										<xs:element name="TotalAmountMoneyID"/>
+										<xs:element name="TotalAmountUSD" type="xs:double"/>
+										<xs:element name="HighestPayment" type="xs:double"/>
+										<xs:element name="HighestMoneyID"/>
+										<xs:element name="HighestUSD" type="xs:double"/>
+										<xs:element name="HighestCredt" type="xs:double"/>
+										<xs:element name="HighestCreditMoneyID"/>
+										<xs:element name="HighestCreditUSD" type="xs:double"/>
+										<xs:element name="AverageDBT" type="xs:long"/>
+										<xs:element name="BadPaymentFlag"/>
+										<xs:element name="TradeHistory"/>
+										<xs:element name="MonthlyAverage" type="xs:double"/>
+										<xs:element name="MonthlyAverageMoneyID" type="xs:string">
+											<xs:annotation>
+												<xs:documentation>月平均交易额币种</xs:documentation>
+											</xs:annotation>
+										</xs:element>
+										<xs:element name="MonthlyAverageUSD" type="xs:double">
+											<xs:annotation>
+												<xs:documentation>月平均交易额折美元</xs:documentation>
+											</xs:annotation>
+										</xs:element>
+										<xs:element name="MortgageAmount" type="xs:double"/>
+										<xs:element name="MortgageMoneyID"/>
+										<xs:element name="MortgageAmountUSD" type="xs:double"/>
+										<xs:element name="GuarantorAmount" type="xs:double"/>
+										<xs:element name="GuarantorAmountMoneyID"/>
+										<xs:element name="GuarantorAmountUSD" type="xs:double"/>
+										<xs:element name="GuaranteeAmount" type="xs:double"/>
+										<xs:element name="GuaranteeAmountMoneyID"/>
+										<xs:element name="GuaranteeAmountUSD" type="xs:double"/>
+										<xs:element name="EDFValue" type="xs:string">
+											<xs:annotation>
+												<xs:documentation>EDF值</xs:documentation>
+											</xs:annotation>
+										</xs:element>
+										<xs:element name="EDFTrend">
+											<xs:annotation>
+												<xs:documentation>EDF趋势</xs:documentation>
+											</xs:annotation>
+										</xs:element>
+										<xs:element name="EDFDate" type="xs:date">
+											<xs:annotation>
+												<xs:documentation>EDF时间</xs:documentation>
+											</xs:annotation>
+										</xs:element>
+										<xs:element name="Justice" type="xs:string">
+											<xs:annotation>
+												<xs:documentation>律政所</xs:documentation>
+											</xs:annotation>
+										</xs:element>
+										<xs:element name="SoverguaranteeFlag" type="xs:string">
+											<xs:annotation>
+												<xs:documentation>是否接受过主权担保</xs:documentation>
+											</xs:annotation>
+										</xs:element>
+										<xs:element name="BankInfos">
+											<xs:annotation>
+												<xs:documentation>银行信息</xs:documentation>
+											</xs:annotation>
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="BankInfo" minOccurs="0" maxOccurs="unbounded">
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element name="Name" type="xs:string">
+																	<xs:annotation>
+																		<xs:documentation>银行名称</xs:documentation>
+																	</xs:annotation>
+																</xs:element>
+																<xs:element name="Code" type="xs:string">
+																	<xs:annotation>
+																		<xs:documentation>银行编码</xs:documentation>
+																	</xs:annotation>
+																</xs:element>
+															</xs:sequence>
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="MortgageDetails">
+											<xs:annotation>
+												<xs:documentation>抵押信息</xs:documentation>
+											</xs:annotation>
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="MortgageDetail" minOccurs="0" maxOccurs="unbounded">
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element name="MortgageDate" type="xs:date">
+																	<xs:annotation>
+																		<xs:documentation>抵押时间</xs:documentation>
+																	</xs:annotation>
+																</xs:element>
+																<xs:element name="ReleaseDate" type="xs:date">
+																	<xs:annotation>
+																		<xs:documentation>解除日期</xs:documentation>
+																	</xs:annotation>
+																</xs:element>
+																<xs:element name="Mortgage" type="xs:string">
+																	<xs:annotation>
+																		<xs:documentation>抵押物品</xs:documentation>
+																	</xs:annotation>
+																</xs:element>
+																<xs:element name="MortgageType" type="xs:string">
+																	<xs:annotation>
+																		<xs:documentation>抵押类型</xs:documentation>
+																	</xs:annotation>
+																</xs:element>
+																<xs:element name="MortgageObjectType" type="xs:string">
+																	<xs:annotation>
+																		<xs:documentation>抵押品类型</xs:documentation>
+																	</xs:annotation>
+																</xs:element>
+															</xs:sequence>
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="Public">
+								<xs:annotation>
+									<xs:documentation>企业公共信息</xs:documentation>
+								</xs:annotation>
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="BulletinFlg"/>
+										<xs:element name="NewsFlag"/>
+										<xs:element name="LitigationFlag"/>
+										<xs:element name="BankruptcyFlg"/>
+										<xs:element name="MortgateFlag"/>
+										<xs:element name="OtherPublicRecordFlag"/>
+										<xs:element name="LienFlag"/>
+										<xs:element name="Note"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="Financials">
+								<xs:annotation>
+									<xs:documentation>企业财务信息</xs:documentation>
+								</xs:annotation>
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="Financial" minOccurs="0" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="Auditor"/>
+													<xs:element name="Currency"/>
+													<xs:element name="MoneyUnit"/>
+													<xs:element name="ClosingDate" type="xs:date"/>
+													<xs:element name="FinancialReportType"/>
+													<xs:element name="AuditFlag"/>
+													<xs:element name="EstimatedFlag"/>
+													<xs:element name="ConsolidatedFlag"/>
+													<xs:element name="BalanceFlag" type="xs:string">
+														<xs:annotation>
+															<xs:documentation>是否平衡</xs:documentation>
+														</xs:annotation>
+													</xs:element>
+													<xs:element name="CurrentAssets" type="xs:double"/>
+													<xs:element name="Receivables" type="xs:double"/>
+													<xs:element name="Inventory" type="xs:double"/>
+													<xs:element name="IntangibleAssets" type="xs:double"/>
+													<xs:element name="TotalAssets" type="xs:double"/>
+													<xs:element name="CurrentDebts" type="xs:double"/>
+													<xs:element name="Payables" type="xs:double"/>
+													<xs:element name="Totalliability" type="xs:double"/>
+													<xs:element name="RetainedEaring" type="xs:double"/>
+													<xs:element name="TotalEquity" type="xs:double"/>
+													<xs:element name="WorkingCapital" type="xs:double"/>
+													<xs:element name="MarketValue" type="xs:double"/>
+													<xs:element name="SalesRevenue" type="xs:double"/>
+													<xs:element name="SalesCost" type="xs:double"/>
+													<xs:element name="FinancialExpenses" type="xs:double"/>
+													<xs:element name="OperatingProfit" type="xs:double"/>
+													<xs:element name="EBIT" type="xs:double"/>
+													<xs:element name="NetProfit" type="xs:double"/>
+													<xs:element name="CFOperation" type="xs:double"/>
+													<xs:element name="CFFinancing" type="xs:double"/>
+													<xs:element name="CFIvestment" type="xs:double"/>
+													<xs:element name="CurrentRatio" type="xs:double"/>
+													<xs:element name="QuickRatio" type="xs:double"/>
+													<xs:element name="DebtRatio" type="xs:double"/>
+													<xs:element name="DebutToEquity" type="xs:double"/>
+													<xs:element name="InterestTimes" type="xs:double"/>
+													<xs:element name="ReceivableTurnover" type="xs:double"/>
+													<xs:element name="CollectionPeriod" type="xs:long"/>
+													<xs:element name="AccountPayableTurnover" type="xs:double"/>
+													<xs:element name="PaymentPeriod" type="xs:long"/>
+													<xs:element name="InventoryTurnover" type="xs:double"/>
+													<xs:element name="InventoryTurnoverPeriod" type="xs:long"/>
+													<xs:element name="TotalAssetTurnover" type="xs:double"/>
+													<xs:element name="EBITDAMargin" type="xs:double"/>
+													<xs:element name="NetProfitMargin" type="xs:double"/>
+													<xs:element name="ReturnOnEquity" type="xs:double"/>
+													<xs:element name="ReturnOnAssets" type="xs:double"/>
+													<xs:element name="Source"/>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="Note"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
