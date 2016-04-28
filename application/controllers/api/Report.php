@@ -18,6 +18,8 @@ class Report extends REST_Controller
         $csu = $this->db->where("CID", $this->get("id"))->get("43csu");
         $cbr = $this->db->where('showed', '1')->where('CID', $this->get("id"))->from('31cbr')->order_by('BID')->get();
         $cpa = $this->db->where('CID', $this->get("id"))->from('42cpa')->get();
+        $csh = $this->db->where('CID', $this->get("id"))->from('33csh')->get();
+        $cmb = $this->db->where('CID', $this->get("id"))->from('35cmb')->get();
 
         if ($cmp->num_rows() == 1) {
             $cbrLists = array();
@@ -30,11 +32,35 @@ class Report extends REST_Controller
                     "Remark" => ""
                 );
             }
+
             $cpaLists = array();
             foreach ($cpa->result_array() as $cpaList) {
                 $cpaLists[]["Affiliate"] = array(
                     "Name" => $cpaList['Name'],
                     "Remark" => ""
+                );
+            }
+
+            $cshLists = array();
+            foreach ($csh->result_array() as $cshList) {
+                $cshLists[]["ShareHolder"] = array(
+                    "Name" => $cshList['Sharer'],
+                    "Ratio" => $cshList['Percent'],
+                    "SharesHold" => "",
+                    "ValueHold" => "",
+                    "ValueMoneyID" => "",
+                    "ValueUSD" => ""
+                );
+            }
+
+            $cmbLists = array();
+            foreach ($cmb->result_array() as $cmbList) {
+                $cmbLists[]["Manager"] = array(
+                    "Name" => $cmbList['name'],
+                    "Title" => $cmbList['Position'],
+                    "Nationality" => "",
+                    "WorkExperience" => "",
+                    "Age" => ""
                 );
             }
 
@@ -45,7 +71,8 @@ class Report extends REST_Controller
                     "ReportNo" => "",
                     "ReportType" => "",
                     "ChannelNo" => "",
-                    "CorpID" => ""
+                    "DefaultCurrency" => "IDR",
+                    "CorpID" => "Sinosure"
                 ),
                 "Subject" => array(
                     "BasicInfo" => array(
@@ -69,24 +96,24 @@ class Report extends REST_Controller
                         "DunsNo" => "",
                     ),
                     "OverView" => array(
-                        "LegalForm" => "",
+                        "LegalForm" => $cmpRow['LegalNo'],
                         "DateRegistered" => $cmpRow['Est'],
                         "DateFounded" => "",
-                        "InitialCapital" => 0,
-                        "InitialMoneyId" => "IDR",
-                        "InitialCapitalUSD" => 0,
+                        "InitialCapital" => "",
+                        "InitialMoneyId" => "",
+                        "InitialCapitalUSD" => "",
                         "NationalityCEO" => "",
                         "EducationCEO" => "",
                         "YearInBizCEO" => "",
-                        "RegisterCapital" => 0,
+                        "RegisterCapital" => $cmpRow['AuthCap'],
                         "RegisterMoneyId" => "IDR",
-                        "RegisterCapitalUSD" => 0,
+                        "RegisterCapitalUSD" => "",
                         "EmployeeNum" => $cmpRow['TotalEmp'],
-                        "BranchNumber" => 0,
-                        "BranchEmployeeNum" => 0,
+                        "BranchNumber" => "",
+                        "BranchEmployeeNum" => "",
                         "PaidUpCapital" => $cmpRow['PaidCap'],
                         "PaidUpMoneyId" => "IDR",
-                        "PaidUpCapitalUSD" => 0,
+                        "PaidUpCapitalUSD" => "",
                         "OperationStatus" => 1,
                         "ParentId" => "",
                         "Parent" => "",
@@ -109,8 +136,9 @@ class Report extends REST_Controller
                         "Subsidiaries" => array(),
                         "Relateds" => array(),
                         "Affiliates" => $cpaLists,
-                        "Managers" => array(),
-                        "BranchDetailInfos" => $cbrLists
+                        "Managers" => $cmbLists,
+                        "BranchDetailInfos" => $cbrLists,
+                        "ShareHolders" => $cshLists
                     )
                 )
             ));
